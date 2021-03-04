@@ -86,7 +86,7 @@ export default {
       return wrapperPercent(this.reportData, 'userGrowthLastDay')
     },
     userGrowthLastMonth () {
-      return wrapperPercent(this.reportData, 'userGrowthLastMonth')
+      return wrapperNumber(this.reportData, 'userGrowthLastMonth')
     },
     orderFullYear () {
       return wrapperArray(this.reportData, 'orderFullYear')
